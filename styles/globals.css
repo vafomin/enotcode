@@ -11,3 +11,14 @@
     @apply text-white bg-indigo-900 border border-indigo-900 px-3 py-1 rounded-full;
   }
 }
+
+@layer utilities {
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
