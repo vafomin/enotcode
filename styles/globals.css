@@ -4,7 +4,7 @@
 
 @layer components {
   .layout {
-    @apply flex items-center pt-32 px-4 md:justify-center;
+    @apply pt-16 px-4 md:pt-32 md:flex md:items-center md:justify-center;
   }
 
   .chip{

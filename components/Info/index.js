@@ -3,7 +3,7 @@ import Image from "next/image";
 const Info = () => {
   return (
     <div className="flex flex-col-reverse gap-16 items-center pb-10 md:flex-row">
-      <div className="flex flex-col w-96 text-center md:text-left">
+      <div className="flex flex-col w-max text-center md:text-left">
         <h1 className="text-3xl font-bold pb-10">Hi, I am Viktor</h1>
         <div>
           <p>
@@ -19,7 +19,7 @@ const Info = () => {
             .
           </p>
           <p>Most of the time i’m develop frontend apps.</p>
-          <div className="inline-flex gap-1">
+          <div className="flex flex-col gap-1 md:inline-flex">
             <p>My skills:</p>
             <p className="italic">
               JS, TS, React, Next.js, Redux, MobX and other...
