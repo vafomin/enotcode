@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const Work = (props) => {
-  const { img, title, date, tag, description } = props;
+  const { img, url, title, date, tag, description } = props;
   return (
     <>
       <div className="flex flex-col gap-4 md:flex-row">
@@ -15,7 +15,14 @@ const Work = (props) => {
           />
         </div>
         <div className="flex flex-col gap-4">
-          <h1 className="text-xl font-bold">{title}</h1>
+          <a
+            className="text-xl font-bold text-indigo-600 underline"
+            href={url}
+            target="_blank"
+            rel="noreferrer"
+          >
+            {title}
+          </a>
           <div className="flex flex-row gap-4 items-center">
             <div className="chip">
               <p className="text-bold uppercase">{date}</p>
