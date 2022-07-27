@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 const Home = () => {
   return (
-    <div className="flex flex-col px-10">
+    <div className="flex flex-col">
       <Info />
       <Works />
       <Footer />
