@@ -1,5 +1,15 @@
+import Info from "../components/Info";
+import Works from "../components/Works";
+import Footer from "../components/Footer";
+
 const Home = () => {
-  return <h1>Hello</h1>;
+  return (
+    <div className="flex flex-col px-10">
+      <Info />
+      <Works />
+      <Footer />
+    </div>
+  );
 };
 
 export default Home;

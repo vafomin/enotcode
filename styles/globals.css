@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .layout {
+    @apply flex items-center pt-32 md:justify-center;
+  }
+
+  .chip{
+    @apply text-white bg-indigo-900 border border-indigo-900 px-3 py-1 rounded-full;
+  }
+}
