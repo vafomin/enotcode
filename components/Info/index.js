@@ -6,8 +6,25 @@ const Info = () => {
       <div className="flex flex-col w-96 text-center md:text-left">
         <h1 className="text-3xl font-bold pb-10">Hi, I am Viktor</h1>
         <div>
-          <p>I’m a frontend developer at Onlyoffice.</p>
+          <p>
+            I’m a frontend developer at{" "}
+            <a
+              className="text-indigo-600"
+              href="https://onlyoffice.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Onlyoffice
+            </a>
+            .
+          </p>
           <p>Most of the time i’m develop frontend apps.</p>
+          <div className="inline-flex gap-1">
+            <p>My skills:</p>
+            <p className="italic">
+              JS, TS, React, Next.js, Redux, MobX and other...
+            </p>
+          </div>
         </div>
       </div>
       <div className="relative h-64 w-64">
