@@ -18,7 +18,7 @@ const Info = () => {
             </a>
             .
           </p>
-          <p>Most of the time i’m develop frontend apps.</p>
+          <p>Most of the time i develop frontend apps.</p>
           <div className="flex flex-col gap-1 md:inline-flex">
             <p>My skills:</p>
             <p className="italic">
